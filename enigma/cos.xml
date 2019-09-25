@@ -13,7 +13,7 @@
     </project>
 
     <project path="build/soong" name="platform_build_soong" remote="colt" revision="c10" >
-        <linkfile src="root.bp" dest="platform.bp" />
+        <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
