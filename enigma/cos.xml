@@ -129,7 +129,6 @@
   <project path="external/turbine" name="platform_external_turbine" remote="colt" />
   <project path="external/freetype" name="platform_external_freetype" remote="colt" />
   <project path="external/zlib" name="platform_external_zlib" remote="colt" />
-  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="colt" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="colt" />
   <project path="external/vixl" name="platform_external_vixl" remote="colt" revision="wip" />
   <project path="external/skia" name="platform_external_skia" remote="colt" />
@@ -141,7 +140,15 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="los" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="colt" revision="wip" />
+  <project path="external/curl" name="android_external_curl" remote="los" />
+  <project path="external/libbrillo" name="android_external_libbrillo" remote="los" />
+  <project path="external/libchrome" name="android_external_libchrome" remote="los" />
+  <project path="external/puffin" name="android_external_puffin" remote="los" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" remote="los" />
+  <project path="external/v8" name="android_external_v8" remote="los" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="los" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="los" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="los" />
 
   <!-- hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
@@ -154,4 +161,6 @@
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 </manifest>
